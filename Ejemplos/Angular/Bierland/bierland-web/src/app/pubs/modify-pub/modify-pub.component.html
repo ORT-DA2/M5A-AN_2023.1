@@ -1,0 +1,26 @@
+<div class="content">
+  <div class="box-container">
+    <div class="title">
+      Modificar pub
+      <div class="divider1"></div>
+      <div class="divider2"></div>
+    </div>
+    <div class="container">
+      <div class="form-style">
+        <label>
+          <span>Nombre</span
+          ><input [(ngModel)]="name" type="text" required="true" />
+        </label>
+        <label>
+          <span>Dirección</span
+          ><input [(ngModel)]="address" type="text" required="true" />
+        </label>
+        <label>
+          <span> </span>
+          <div class="button cancel" (click)="deletePub()">Eliminar</div>
+          <div class="button" (click)="modifyPub()">Modificar</div>
+        </label>
+      </div>
+    </div>
+  </div>
+</div>

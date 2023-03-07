@@ -1,0 +1,10 @@
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.domain\bin\Debug\netcoreapp3.1\Bierland.domain.deps.json
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.domain\bin\Debug\netcoreapp3.1\Bierland.domain.dll
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.domain\bin\Debug\netcoreapp3.1\Bierland.domain.pdb
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.domain\obj\Debug\netcoreapp3.1\Bierland.domain.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.domain\obj\Debug\netcoreapp3.1\Bierland.domain.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.domain\obj\Debug\netcoreapp3.1\Bierland.domain.AssemblyInfoInputs.cache
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.domain\obj\Debug\netcoreapp3.1\Bierland.domain.AssemblyInfo.cs
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.domain\obj\Debug\netcoreapp3.1\Bierland.domain.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.domain\obj\Debug\netcoreapp3.1\Bierland.domain.dll
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.domain\obj\Debug\netcoreapp3.1\Bierland.domain.pdb

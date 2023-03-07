@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+
+.button {
+    border: solid;
+    width: fit-content;
+    padding: 0.313rem;
+    border-radius: 1.25rem;
+    background-color: #A9C5A0;
+    border-color: #A9C5A0;
+    color: white;
+    font-size: 1.625rem;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #C5EFCB;
+    color: black;
+}
+
+.form {
+    margin-top: 1.875rem;
+}
+
+.form-item {
+    margin: 1.875rem;
+}
+
+.form-item-control {
+    display: flex;
+    flex-direction: column;
+    width: 18.75rem;
+}
+
+.form-item-label {
+    font-size: 1.625rem;
+}
+
+.form-item-input {
+    width: 20rem;
+    font-size: 1.125rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.alert-danger {
+    margin-top: 0.5rem;
+    color: red;
+    font-size: 1rem;
+}
+
+.input-error {
+    border-color: red;
+}

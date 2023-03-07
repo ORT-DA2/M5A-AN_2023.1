@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "h0TZ+3vsRYN0+BXoPvCG8+2S7aaRQ9VSlS+/lVFEW3tDAlagRGIcx79FNwNgviw/RqxgKIVdE6SYGvPZcjG69Q==",
+  "success": true,
+  "projectFilePath": "/Users/alexanderwieler/Documents/ORT/2022/Semestre 2 M5A-N5A/Ejemplos/Angular/Bierland/Bierland/Bierland.dataaccessInterface/Bierland.dataaccessInterface.csproj",
+  "expectedPackageFiles": [
+    "/Users/alexanderwieler/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/alexanderwieler/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

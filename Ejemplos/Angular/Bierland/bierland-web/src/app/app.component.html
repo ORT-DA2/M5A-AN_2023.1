@@ -1,0 +1,44 @@
+<div class="toolbar" role="banner">
+  <img width="200" src="assets/images/bierland-logo.png" routerLink="" />
+  <span class="toolbar-element" routerLink="pubs">
+    <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+      >Pubs</a
+    >
+  </span>
+  <span class="toolbar-element" routerLink="beers">
+    <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+      >Cervezas</a
+    >
+  </span>
+  <div class="spacer"></div>
+  <div *ngIf="logued; then thenBlock; else elseBlock"></div>
+  <ng-template #thenBlock
+    ><span class="toolbar-element" (click)="logout()"> <a>Cerrar Sesión</a></span></ng-template
+  >
+  <ng-template #elseBlock
+    ><span class="toolbar-element" routerLink="login">
+      <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+        >Iniciar Sesión</a
+      ></span
+    ></ng-template
+  >
+</div>
+
+<!--<img id="back" width="100%" src="assets/images/background.webp" />-->
+<div class="bg-image"></div>
+<div class="content">
+  <router-outlet (activate)='onActivate($event)' ></router-outlet>
+  <ngx-spinner bdColor="rgba(255,255,255,0.6)">
+    <img class="spinner" width="450" src="assets/images/bierland-logo.png" />
+    <p
+      style="
+        color: #297729;
+        font-size: 60px;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      "
+    >
+      Cargando...
+    </p>
+  </ngx-spinner>
+</div>

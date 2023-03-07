@@ -1,0 +1,117 @@
+:host {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+naranja obscuro: #d37535
+naranja claro: #ffa947
+naranja: #e88a4b
+verde claro: #44b748
+verde: #297729
+gris: #b5afa9
+negro: #2f2f2f
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 8px 0;
+}
+
+p {
+  margin: 0;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: #2f2f2f;
+  font-weight: 600;
+}
+
+.toolbar img {
+  margin: 0 16px;
+}
+
+.toolbar img:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.toolbar-element {
+  height: 40px;
+  margin: 0 16px;
+  font-size: 30px;
+}
+
+.toolbar-element:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  color: #d37535;
+}
+
+.active {
+  color: #d37535;
+}
+
+.content {
+  margin-top: 200px;
+}
+
+#back {
+  position: fixed;
+  z-index: -10;
+  width: 100%;
+  opacity: 0.8;
+  filter: brightness(0.4) blur(2px);
+  background: red;
+}
+
+.background-image {
+  position: fixed;
+  z-index: -10;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/background.webp');
+  opacity: 0.8;
+  filter: brightness(0.2) blur(2px);
+}
+
+.bg-image {
+  background-image: url('../assets/images/background.webp');
+
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  height: 100%;
+  width: 100%;
+  position: fixed;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@keyframes rotate360 {
+  to { transform: rotate(360deg); }
+}
+.spinner { animation: 6s rotate360 infinite linear; }

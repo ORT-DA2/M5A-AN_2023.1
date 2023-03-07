@@ -1,0 +1,15 @@
+<h2>Productos</h2>
+<input [(ngModel)]="filterValue" placeholder="Filtrar por" />
+<p>
+  Productos filtrados por <b>{{ filterValue | lowercase }}</b>
+</p>
+<div class="button" (click)="addProduct()">AGREGAR PRODUCTO</div>
+<div class="list">
+  <app-product-row
+    *ngFor="let product of products | filter: filterValue"
+    [product]="product"
+    (delete)="deleteProduct($event)"
+    (click)="onProductClick(product)"
+  >
+  </app-product-row>
+</div>

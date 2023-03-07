@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  margin: 0px;
+}
+
+.button {
+  border: solid;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #A9C5A0;
+  border-color: #A9C5A0;
+  color: white;
+  font-size: 26px;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.button:hover{
+  background-color: #C5EFCB;
+  color: black;
+}
+
+.form {
+  margin-top: 30px;
+}
+
+.form-item {
+  margin: 30px;
+  font-size: 26px;
+}
+
+.form-item label {
+  margin-right: 10px;
+}
+
+.form-item input {
+  font-size: 18px;
+}

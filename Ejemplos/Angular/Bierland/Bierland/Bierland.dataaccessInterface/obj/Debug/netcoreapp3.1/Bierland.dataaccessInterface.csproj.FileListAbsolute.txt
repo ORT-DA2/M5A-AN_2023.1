@@ -1,0 +1,13 @@
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.dataaccessInterface\bin\Debug\netcoreapp3.1\Bierland.dataaccessInterface.deps.json
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.dataaccessInterface\bin\Debug\netcoreapp3.1\Bierland.dataaccessInterface.dll
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.dataaccessInterface\bin\Debug\netcoreapp3.1\Bierland.dataaccessInterface.pdb
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.dataaccessInterface\bin\Debug\netcoreapp3.1\Bierland.domain.dll
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.dataaccessInterface\bin\Debug\netcoreapp3.1\Bierland.domain.pdb
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.dataaccessInterface\obj\Debug\netcoreapp3.1\Bierland.dataaccessInterface.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.dataaccessInterface\obj\Debug\netcoreapp3.1\Bierland.dataaccessInterface.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.dataaccessInterface\obj\Debug\netcoreapp3.1\Bierland.dataaccessInterface.AssemblyInfoInputs.cache
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.dataaccessInterface\obj\Debug\netcoreapp3.1\Bierland.dataaccessInterface.AssemblyInfo.cs
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.dataaccessInterface\obj\Debug\netcoreapp3.1\Bierland.dataaccessInterface.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.dataaccessInterface\obj\Debug\netcoreapp3.1\Bierland.dataaccessInterface.csproj.CopyComplete
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.dataaccessInterface\obj\Debug\netcoreapp3.1\Bierland.dataaccessInterface.dll
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.dataaccessInterface\obj\Debug\netcoreapp3.1\Bierland.dataaccessInterface.pdb

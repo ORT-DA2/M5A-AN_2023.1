@@ -1,0 +1,36 @@
+.divider1 {
+  height: 5px;
+  background-color: #44b748;
+  width: 60%;
+  margin-left: 40%;
+  opacity: 0.8;
+}
+.divider2 {
+  height: 5px;
+  background-color: #d37535;
+  width: 60%;
+  opacity: 0.8;
+}
+
+.title {
+  font-size: 30px;
+  align-items: center;
+}
+
+.content {
+  margin-top: 200px;
+}
+
+.container {
+  display: flex;
+  margin-left: 10%;
+  margin-top: 2%;
+  width: 80%;
+  margin-bottom: 2%;
+  flex-direction: row;
+  border: 1px groove #44b748;
+  border-radius: 0px;
+  justify-content: center;
+}
+
+

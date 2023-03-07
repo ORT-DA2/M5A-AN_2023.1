@@ -1,0 +1,22 @@
+<div class="content">
+  <div class="box-container">
+    <div class="title">
+      Pubs
+      <div class="divider1"></div>
+      <div class="divider2"></div>
+    </div>
+    <div class="table-container">
+      <table class="table">
+        <tr class="table-header">
+          <th>Nombre</th>
+          <th>Dirección</th>
+        </tr>
+        <tr *ngFor="let pub of pubs" class="table-item" (click)="selectPub(pub.id)">
+          <td>{{ pub.name }}</td>
+          <td>{{ pub.address }}</td>
+        </tr>
+      </table>
+    </div>
+    <div class="button" (click)="addPub()">Agregar</div>
+  </div>
+</div>

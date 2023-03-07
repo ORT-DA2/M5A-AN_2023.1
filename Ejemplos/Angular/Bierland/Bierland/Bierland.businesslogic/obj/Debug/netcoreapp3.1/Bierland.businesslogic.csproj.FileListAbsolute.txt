@@ -1,0 +1,17 @@
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.businesslogic\bin\Debug\netcoreapp3.1\Bierland.businesslogic.deps.json
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.businesslogic\bin\Debug\netcoreapp3.1\Bierland.businesslogic.dll
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.businesslogic\bin\Debug\netcoreapp3.1\Bierland.businesslogic.pdb
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.businesslogic\bin\Debug\netcoreapp3.1\Bierland.businesslogicInterface.dll
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.businesslogic\bin\Debug\netcoreapp3.1\Bierland.dataaccessInterface.dll
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.businesslogic\bin\Debug\netcoreapp3.1\Bierland.domain.dll
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.businesslogic\bin\Debug\netcoreapp3.1\Bierland.businesslogicInterface.pdb
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.businesslogic\bin\Debug\netcoreapp3.1\Bierland.dataaccessInterface.pdb
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.businesslogic\bin\Debug\netcoreapp3.1\Bierland.domain.pdb
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.businesslogic\obj\Debug\netcoreapp3.1\Bierland.businesslogic.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.businesslogic\obj\Debug\netcoreapp3.1\Bierland.businesslogic.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.businesslogic\obj\Debug\netcoreapp3.1\Bierland.businesslogic.AssemblyInfoInputs.cache
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.businesslogic\obj\Debug\netcoreapp3.1\Bierland.businesslogic.AssemblyInfo.cs
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.businesslogic\obj\Debug\netcoreapp3.1\Bierland.businesslogic.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.businesslogic\obj\Debug\netcoreapp3.1\Bierland.businesslogic.csproj.CopyComplete
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.businesslogic\obj\Debug\netcoreapp3.1\Bierland.businesslogic.dll
+\\Mac\Home\Documents\ORT\M6B-ID-2020.2\Codigos\Bierland\Bierland.businesslogic\obj\Debug\netcoreapp3.1\Bierland.businesslogic.pdb

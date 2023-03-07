@@ -1,0 +1,86 @@
+<div class="form">
+    <app-back-button></app-back-button>
+    <form [formGroup]="movieForm">
+        <div class="form-item">
+            <div class="form-item-control">
+                <label class="form-item-label" for="name">Nombre</label>
+                <input class="form-item-input" formControlName="name" id="name"
+                [ngClass]="{ 'input-error': name?.invalid && (name?.dirty || name?.touched) }" />
+            </div>
+            <div *ngIf="name?.invalid && (name?.dirty || name?.touched)" class="alert-danger">
+                <div *ngIf="name?.errors?.['required'] || name?.errors?.['invalidString']">
+                    Debe ingresar un nombre.
+                </div>
+            </div>
+        </div>
+        <div class="form-item">
+            <div class="form-item-control">
+                <label class="form-item-label" for="category">Categoría</label>
+                <input class="form-item-input" formControlName="category" id="category"
+                [ngClass]="{ 'input-error': category?.invalid && (category?.dirty || category?.touched) }" />
+            </div>
+            <div *ngIf="category?.invalid && (category?.dirty || category?.touched)" class="alert-danger">
+                <div *ngIf="category?.errors?.['required'] || category?.errors?.['invalidString']">
+                    Debe ingresar una categoría.
+                </div>
+            </div>
+        </div>
+        <div class="form-item">
+            <div class="form-item-control">
+                <label class="form-item-label" for="director">Director</label>
+                <input class="form-item-input" formControlName="director" id="director"
+                [ngClass]="{ 'input-error': director?.invalid && (director?.dirty || director?.touched) }" />
+            </div>
+            <div *ngIf="director?.invalid && (director?.dirty || director?.touched)" class="alert-danger">
+                <div *ngIf="director?.errors?.['required'] || director?.errors?.['invalidString']">
+                    Debe ingresar un director.
+                </div>
+            </div>
+        </div>
+        <div class="form-item">
+            <div class="form-item-control">
+                <label class="form-item-label" for="country">País</label>
+                <input class="form-item-input" formControlName="country" id="country"
+                [ngClass]="{ 'input-error': country?.invalid && (country?.dirty || country?.touched) }" />
+            </div>
+            <div *ngIf="country?.invalid && (country?.dirty || country?.touched)" class="alert-danger">
+                <div *ngIf="country?.errors?.['required'] || country?.errors?.['invalidString']">
+                    Debe ingresar un país.
+                </div>
+            </div>
+        </div>
+        <div class="form-item">
+            <div class="form-item-control">
+                <label class="form-item-label" for="year">Año</label>
+                <input class="form-item-input" formControlName="year" id="year" type="number"
+                [ngClass]="{ 'input-error': year?.invalid && (year?.dirty || year?.touched) }" />
+            </div>
+            <div *ngIf="year?.invalid && (year?.dirty || year?.touched)" class="alert-danger">
+                <div *ngIf="year?.errors?.['required']">
+                    Debe ingresar un año.
+                </div>
+                <div *ngIf="year?.errors?.['min'] || year?.errors?.['max']">
+                    El año debe ser entre 1970 y {{ actualYear }}.
+                </div>
+            </div>
+        </div>
+        <div class="form-item">
+            <div class="form-item-control">
+                <label class="form-item-label" for="rating">Puntuación</label>
+                <input class="form-item-input " formControlName="rating" id="rating" type="number"
+                [ngClass]="{ 'input-error': rating?.invalid && (rating?.dirty || rating?.touched) }" />
+            </div>
+            <div *ngIf="rating?.invalid && (rating?.dirty || rating?.touched)" class="alert-danger">
+                <div *ngIf="rating?.errors?.['required']">
+                    Debe ingresar una puntuación.
+                </div>
+                <div *ngIf="rating?.errors?.['min'] || rating?.errors?.['max']">
+                    La puntuación es del 1 al 5.
+                </div>
+            </div>
+        </div>
+        <div class="form-item">
+            <button class="button" (click)="submitMovie()"> {{ !isEditing ? 'Crear' : 'Editar' }}</button>
+        </div>
+    </form>
+</div>

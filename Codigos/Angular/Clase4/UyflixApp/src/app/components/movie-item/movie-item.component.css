@@ -1,0 +1,35 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 0.25rem;
+    border: 0.25rem solid black;
+    border-radius: 2.188rem;
+    padding: 1.25rem;
+    min-width: 10rem;
+}
+  
+.card:hover {
+    background-color: #C6DEC6;
+    border-color: #A9C5A0;
+    cursor: pointer;
+}
+
+.delete-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.delete-button {
+    margin-top: 0.5rem;
+    background: none;
+    border-radius: 2.188rem;
+    border: 0.15rem solid red;
+    color: red;
+    width: 6.25rem;
+}
+
+.delete-button:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+}

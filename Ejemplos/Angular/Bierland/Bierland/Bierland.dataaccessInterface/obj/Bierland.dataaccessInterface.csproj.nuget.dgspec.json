@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/alexanderwieler/Documents/ORT/2022/Semestre 2 M5A-N5A/Ejemplos/Angular/Bierland/Bierland/Bierland.dataaccessInterface/Bierland.dataaccessInterface.csproj": {}
+  },
+  "projects": {
+    "/Users/alexanderwieler/Documents/ORT/2022/Semestre 2 M5A-N5A/Ejemplos/Angular/Bierland/Bierland/Bierland.dataaccessInterface/Bierland.dataaccessInterface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alexanderwieler/Documents/ORT/2022/Semestre 2 M5A-N5A/Ejemplos/Angular/Bierland/Bierland/Bierland.dataaccessInterface/Bierland.dataaccessInterface.csproj",
+        "projectName": "Bierland.dataaccessInterface",
+        "projectPath": "/Users/alexanderwieler/Documents/ORT/2022/Semestre 2 M5A-N5A/Ejemplos/Angular/Bierland/Bierland/Bierland.dataaccessInterface/Bierland.dataaccessInterface.csproj",
+        "packagesPath": "/Users/alexanderwieler/.nuget/packages/",
+        "outputPath": "/Users/alexanderwieler/Documents/ORT/2022/Semestre 2 M5A-N5A/Ejemplos/Angular/Bierland/Bierland/Bierland.dataaccessInterface/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alexanderwieler/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/alexanderwieler/Documents/ORT/2022/Semestre 2 M5A-N5A/Ejemplos/Angular/Bierland/Bierland/Bierland.domain/Bierland.domain.csproj": {
+                "projectPath": "/Users/alexanderwieler/Documents/ORT/2022/Semestre 2 M5A-N5A/Ejemplos/Angular/Bierland/Bierland/Bierland.domain/Bierland.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alexanderwieler/Documents/ORT/2022/Semestre 2 M5A-N5A/Ejemplos/Angular/Bierland/Bierland/Bierland.domain/Bierland.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alexanderwieler/Documents/ORT/2022/Semestre 2 M5A-N5A/Ejemplos/Angular/Bierland/Bierland/Bierland.domain/Bierland.domain.csproj",
+        "projectName": "Bierland.domain",
+        "projectPath": "/Users/alexanderwieler/Documents/ORT/2022/Semestre 2 M5A-N5A/Ejemplos/Angular/Bierland/Bierland/Bierland.domain/Bierland.domain.csproj",
+        "packagesPath": "/Users/alexanderwieler/.nuget/packages/",
+        "outputPath": "/Users/alexanderwieler/Documents/ORT/2022/Semestre 2 M5A-N5A/Ejemplos/Angular/Bierland/Bierland/Bierland.domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alexanderwieler/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

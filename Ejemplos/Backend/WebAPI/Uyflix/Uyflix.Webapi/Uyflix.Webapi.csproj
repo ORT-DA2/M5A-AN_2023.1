@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Uyflix.Business\Uyflix.Business.csproj" />
+    <ProjectReference Include="..\Uyflix.DataAccess\Uyflix.DataAccess.csproj" />
+    <ProjectReference Include="..\Uyflix.Domain\Uyflix.Domain.csproj" />
+    <ProjectReference Include="..\Uyflix.IBusiness\Uyflix.IBusiness.csproj" />
+    <ProjectReference Include="..\Uyflix.IDataAccess\Uyflix.IDataAccess.csproj" />
+  </ItemGroup>
+
+
+</Project>

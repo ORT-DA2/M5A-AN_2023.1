@@ -1,0 +1,12 @@
+<div class="content">
+  <div class="container">
+    <div class="card" *ngFor="let beer of beers" (click)="getDetail(beer.id)">
+      <div class="title">{{ beer.name }}</div>
+      <div class="title">
+        <span class="star" *ngFor="let i of Arr(beer.qualification).fill(1)">
+          <img width="32" src="assets/images/beer.png" />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>

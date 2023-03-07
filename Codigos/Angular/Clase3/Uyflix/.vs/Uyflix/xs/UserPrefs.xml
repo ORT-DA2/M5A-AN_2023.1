@@ -1,0 +1,68 @@
+﻿<Properties StartupConfiguration="{74512BF0-8230-46F6-8116-08CD87646CBF}|Default">
+  <MonoDevelop.Ide.ItemProperties.Uyflix.BusinessLogic.Test2 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Uyflix.WebApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Uyflix.WebApi/Startup.cs">
+    <Files>
+      <File FileName="Uyflix.Exceptions/BusinessLogicException.cs" Line="10" Column="1" />
+      <File FileName="Uyflix.Exceptions/NotFoundException.cs" />
+      <File FileName="Uyflix.Domain/Series.cs" />
+      <File FileName="Uyflix.DataAccess/SeriesManagement.cs" />
+      <File FileName="Uyflix.IDataAccess/ISeriesManagement.cs" />
+      <File FileName="Uyflix.IBusinessLogic/ISeriesService.cs" />
+      <File FileName="Uyflix.BusinessLogic/SeriesService.cs" />
+      <File FileName="Uyflix.Domain/Documentary.cs" />
+      <File FileName="Uyflix.DataAccess/UyflixContext.cs" />
+      <File FileName="Uyflix.DataAccess/DocumentariesManagement.cs" />
+      <File FileName="Uyflix.IBusinessLogic/IDocumentariesService.cs" />
+      <File FileName="Uyflix.IBusinessLogic/IMoviesService.cs" />
+      <File FileName="Uyflix.BusinessLogic/DocumentariesService.cs" />
+      <File FileName="Uyflix.WebApi/Controllers/SeriesController.cs" />
+      <File FileName="Uyflix.WebApi/Controllers/DocumentariesController.cs" />
+      <File FileName="Uyflix.WebApi/Controllers/MoviesController.cs" />
+      <File FileName="Uyflix.BusinessLogic/MoviesService.cs" />
+      <File FileName="Uyflix.IDataAccess/IMoviesManagement.cs" />
+      <File FileName="Uyflix.DataAccess/MoviesManagement.cs" />
+      <File FileName="Uyflix.WebApi/Startup.cs" Line="40" Column="79" />
+      <File FileName="Uyflix.WebApi/Program.cs" />
+      <File FileName="Uyflix.DataAccess.Test/MoviesManagementTest.cs" />
+      <File FileName="Uyflix.WebApi/appsettings.Development.json" />
+      <File FileName="Uyflix.WebApi/appsettings.json" />
+      <File FileName="Uyflix.WebApi/Properties/launchSettings.json" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Uyflix" expanded="True">
+            <Node name="Uyflix.BusinessLogic" expanded="True" />
+            <Node name="Uyflix.BusinessLogic.Test" expanded="True" />
+            <Node name="Uyflix.DataAccess" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Uyflix.DataAccess.Test" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Uyflix.Domain" expanded="True" />
+            <Node name="Uyflix.Exceptions" expanded="True" />
+            <Node name="Uyflix.IBusinessLogic" expanded="True" />
+            <Node name="Uyflix.IDataAccess" expanded="True" />
+            <Node name="Uyflix.WebApi" expanded="True">
+              <Node name="DTOs" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+            <Node name="Uyflix.WebApi.Test" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

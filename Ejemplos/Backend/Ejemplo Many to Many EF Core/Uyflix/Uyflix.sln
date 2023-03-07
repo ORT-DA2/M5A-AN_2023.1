@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uyflix.Webapi", "Uyflix.Webapi\Uyflix.Webapi.csproj", "{9E7B1E10-53FB-437C-86ED-107D559818F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uyflix.Business", "Uyflix.Business\Uyflix.Business.csproj", "{D60E3AB3-D252-4CE6-B395-9B66333F59E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uyflix.DataAccess", "Uyflix.DataAccess\Uyflix.DataAccess.csproj", "{E5AA740D-1E9A-498B-AA46-338B17F30FD6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uyflix.Domain", "Uyflix.Domain\Uyflix.Domain.csproj", "{C00CD03F-9F5E-4271-87E7-C5E07C8527C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uyflix.IBusiness", "Uyflix.IBusiness\Uyflix.IBusiness.csproj", "{ED9737A2-68A5-4744-924B-B9383C01534B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uyflix.IDataAccess", "Uyflix.IDataAccess\Uyflix.IDataAccess.csproj", "{BBE54C19-CA24-473F-B13F-A081D91450ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uyflix.DataAccessTests", "Uyflix.DataAccessTests\Uyflix.DataAccessTests.csproj", "{C10ED214-F230-4184-A033-CFE8B0AB5BE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E7B1E10-53FB-437C-86ED-107D559818F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E7B1E10-53FB-437C-86ED-107D559818F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E7B1E10-53FB-437C-86ED-107D559818F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E7B1E10-53FB-437C-86ED-107D559818F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D60E3AB3-D252-4CE6-B395-9B66333F59E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D60E3AB3-D252-4CE6-B395-9B66333F59E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D60E3AB3-D252-4CE6-B395-9B66333F59E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D60E3AB3-D252-4CE6-B395-9B66333F59E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5AA740D-1E9A-498B-AA46-338B17F30FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5AA740D-1E9A-498B-AA46-338B17F30FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5AA740D-1E9A-498B-AA46-338B17F30FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5AA740D-1E9A-498B-AA46-338B17F30FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C00CD03F-9F5E-4271-87E7-C5E07C8527C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C00CD03F-9F5E-4271-87E7-C5E07C8527C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C00CD03F-9F5E-4271-87E7-C5E07C8527C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C00CD03F-9F5E-4271-87E7-C5E07C8527C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9737A2-68A5-4744-924B-B9383C01534B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9737A2-68A5-4744-924B-B9383C01534B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9737A2-68A5-4744-924B-B9383C01534B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9737A2-68A5-4744-924B-B9383C01534B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE54C19-CA24-473F-B13F-A081D91450ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE54C19-CA24-473F-B13F-A081D91450ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE54C19-CA24-473F-B13F-A081D91450ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE54C19-CA24-473F-B13F-A081D91450ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C10ED214-F230-4184-A033-CFE8B0AB5BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C10ED214-F230-4184-A033-CFE8B0AB5BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C10ED214-F230-4184-A033-CFE8B0AB5BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C10ED214-F230-4184-A033-CFE8B0AB5BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0BC5D31-F15D-4ED3-83AD-2AE9A5E7948F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+<div class="content">
+  <div class="box-container">
+    <div class="title">
+      Login
+      <div class="divider1"></div>
+      <div class="divider2"></div>
+    </div>
+    <div class="container">
+      <div class="form-style">
+        <label>
+          <span>Nickname</span
+          ><input [(ngModel)]="nickname" type="text" required="true" />
+        </label>
+        <label>
+          <span>Contraseña</span
+          ><input [(ngModel)]="password" class="password" type="password" required="true" />
+        </label>
+        <label>
+          <span> </span>
+          <div class="button" (click)="login()">Ingresar</div>
+        </label>
+      </div>
+    </div>
+  </div>
+</div>

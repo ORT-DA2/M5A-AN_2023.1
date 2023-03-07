@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "CFW/xN7kCIT/wRuSBzIvHBCDb9WaNG1FEBXpf/cbY+nnmO0j54MK2UNw8LNuPUnr3aryG0G+AowbWVIl4lMePw==",
+  "success": true,
+  "projectFilePath": "/Users/alexanderwieler/Documents/ORT/2022/Semestre 2 M5A-N5A/Ejemplos/Angular/Bierland/Bierland/Bierland.businesslogic/Bierland.businesslogic.csproj",
+  "expectedPackageFiles": [
+    "/Users/alexanderwieler/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/alexanderwieler/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
