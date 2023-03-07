@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold "Server=localhost,11433;Database=OTO;User Id=sa;Password=yourStrong(!)Password;" Microsoft.EntityFrameworkCore.SqlServer -o Entities --no-build

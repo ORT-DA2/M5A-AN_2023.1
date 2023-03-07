@@ -1,0 +1,28 @@
+<div class="card card-primary">
+    <div class="card-header">
+        Nuevo
+    </div>
+  <div class="card-body">
+    <form [formGroup]="homeworkForm" (ngSubmit)="onSubmit()">
+    
+        <label for="description">Descripción: </label>
+        <input id="description" type="text" formControlName="description">
+
+        <label for="rating">Rating: </label>
+        <input id="rating" type="number" formControlName="rating">
+        
+        <label for="dueDate">Fecha: </label>
+        <input id="dueDate" type="date" formControlName="dueDate">
+        
+        <label for="score">Puntaje: </label>
+        <input id="score" type="number" formControlName="score">
+        
+        <br><br>
+        <button type="submit" [disabled]="!homeworkForm.valid">Enviar</button>
+    </form>
+  </div>
+  <div class='card-footer'>
+    <p><b>Valor Formulario:</b> {{ homeworkForm.value | json }}/p>
+    <p><b>Estado Formulario:</b> {{ homeworkForm.status }}</p>
+  </div>
+</div>

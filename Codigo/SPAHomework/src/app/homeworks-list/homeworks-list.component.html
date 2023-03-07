@@ -1,0 +1,68 @@
+<div class='card'>
+    <div class='card-header'>
+        {{pageTitle}}
+    </div>
+
+    <div class='card-body'>
+        <!-- Aca filtramos las tareas  -->
+        <!-- Selector de filtro:  -->
+        <div class='row'>
+            <input [(ngModel)]="listFilter" />
+            Filtrando por: {{listFilter}}
+        </div>
+
+        <!--Tabla de tareas -->
+        <div>
+            <table class="table table-striped" *ngIf='(homeworks$ | async) && (homeworks$ | async)?.length'>
+                <!--Cabezal de la tabla -->
+                <thead>
+                    <tr>
+                      <th>Id</th>
+                      <th>Descripción</th>
+                      <th>Fecha</th>
+                      <th>Puntaje</th>
+                      <th>
+                        <button (click)="toggleExercises()" class='btn btn-primary'>
+                          {{showExercises ? 'Mostrar' : 'Ocultar'}} EJs
+                        </button>
+                      </th>
+                      <th>Rating</th>
+                    </tr>
+                  </thead>
+                <!--Cuerpo de la tabla-->
+                <tbody>
+                    <tr *ngFor="let aHomework of homeworks$ | async">
+                        <td><a [routerLink]="['/homeworks', aHomework.id]"> {{aHomework.id | uppercase}} </a></td>
+                        <td>{{aHomework.description | lowercase | uppercase }}</td>
+                        <td>{{aHomework.dueDate | date : 'yyyy/M/dd h:mm'}}</td>
+                        <td>{{aHomework.score}}</td>
+                        <td>
+                          <div *ngIf='showExercises'>
+                            <table *ngIf='aHomework.exercises && aHomework.exercises.length'>
+                              <thead>
+                                <tr>
+                                  <th>Problema</th>
+                                  <th>Puntaje</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr *ngFor="let aExercise of aHomework.exercises">
+                                  <td>{{aExercise.problem}}</td>
+                                  <td>{{aExercise.score}}</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </td>
+                        <td>
+                          <app-star 
+                            [rating]='aHomework.rating'
+                            (ratingClicked)='onRatingClicked($event)'>
+                          </app-star>
+                        </td>
+                    </tr>
+                  </tbody>
+            </table>
+        </div>
+    </div>
+</div>
