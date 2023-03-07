@@ -8,11 +8,13 @@ En el van a encontrar tanto material teórico y enlaces a documentos, como códi
 
 El código que encontraran aquí va a ser construido clase a clase. Por supuesto no va a ser perfecto, así que es recomendable tomarlo con cuidado y aplicarlo de la forma más conveniente.
 
+* [Foro de Tecnologia](https://aulas.ort.edu.uy/mod/forum/view.php?id=231726)
+
 ### Docentes
 
-- Nicolás Fierro 
-- Alexander Wieler 
-- Ignacio Harretche
+- :goat: Nicolás Fierro    
+- :rocket: Alexander Wieler  
+- :tophat: Ignacio Harretche 
 
 
 ### Herramientas necesarias para este curso
@@ -25,7 +27,11 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 - [Git](https://git-scm.com/)
 - [Instalar Docker y SQL Server en macOS](Clases/InstalacionSQLserverMacOS.md)
 
----
+
+
+* [GitHub: Cuentas](https://fi365-my.sharepoint.com/:x:/g/personal/aw177322_fi365_ort_edu_uy/ETy_lJcO_qZHo2VUIHc4LDMBXKqihEIylaxR7i_80gCI_A?e=cqPzQU)
+
+
 
 # Clases
 ### Clase 1 - Introducción
