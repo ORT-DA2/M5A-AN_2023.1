@@ -12,9 +12,9 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 
 ### Docentes
 
+- :rocket: Alexander Wieler 
+- :tophat: Ignacio Harretche  
 - :goat: Nicolás Fierro    
-- :rocket: Alexander Wieler  
-- :tophat: Ignacio Harretche 
 
 
 ### Herramientas necesarias para este curso
