@@ -17,6 +17,7 @@ namespace WebApi.Test
         private Mock<IMoviesService>? mock;
         private MoviesController? api;
         private Movie? iceAge;
+        private CreateMovieRequestDTO? iceAgeDTO;
         private IEnumerable<Movie>? movies;
         [TestInitialize]
         public void InitTest()
@@ -31,6 +32,15 @@ namespace WebApi.Test
                 2002,
                 5
             );
+            iceAgeDTO = new CreateMovieRequestDTO
+            {
+                Name = iceAge.Name,
+                Category = iceAge.Category,
+                Director = iceAge.Director,
+                Country = iceAge.Country,
+                Year = iceAge.Year,
+                Rating = iceAge.Rating,
+            };
             movies = new List<Movie>() { iceAge };
         }
 
@@ -63,8 +73,10 @@ namespace WebApi.Test
         [TestMethod]
         public void PostMovieBadRequest()
         {
+            iceAge!.Rating = 10;
+            iceAgeDTO!.Rating = 10;
             mock!.Setup(x => x.InsertMovie(It.IsAny<Movie>())).Throws(new BusinessLogicException());
-            var result = api!.PostMovie(It.IsAny<CreateMovieRequestDTO>());
+            var result = api!.PostMovie(iceAgeDTO!);
             var objectResult = result as ObjectResult;
             var statusCode = objectResult?.StatusCode;
 
@@ -76,7 +88,7 @@ namespace WebApi.Test
         public void PostMovieFail()
         {
             mock!.Setup(x => x.InsertMovie(It.IsAny<Movie>())).Throws(new Exception());
-            var result = api!.PostMovie(It.IsAny<CreateMovieRequestDTO>());
+            var result = api!.PostMovie(iceAgeDTO!);
             var objectResult = result as ObjectResult;
             var statusCode = objectResult?.StatusCode;
 
@@ -87,8 +99,8 @@ namespace WebApi.Test
         [TestMethod]
         public void PostMovieOk()
         {
-            mock!.Setup(x => x.InsertMovie(It.IsAny<Movie>())).Returns(It.IsAny<Movie>());
-            var result = api!.PostMovie(It.IsAny<CreateMovieRequestDTO>());
+            mock!.Setup(x => x.InsertMovie(It.IsAny<Movie>())).Returns(iceAge);
+            var result = api!.PostMovie(iceAgeDTO!);
             var objectResult = result as ObjectResult;
             var statusCode = objectResult?.StatusCode;
 
@@ -171,9 +183,9 @@ namespace WebApi.Test
         [TestMethod]
         public void DeleteMovieOk()
         {
-            mock!.Setup(x => x.DeleteMovie(It.IsAny<int>()));
-            var result = api!.DeleteMovie(It.IsAny<int>());
-            var objectResult = result as OkResult;
+            mock!.Setup(x => x.DeleteMovie(iceAge!.Id));
+            var result = api!.DeleteMovie(iceAge!.Id);
+            var objectResult = result as OkObjectResult;
             var statusCode = objectResult?.StatusCode;
 
             mock.VerifyAll();
@@ -181,4 +193,3 @@ namespace WebApi.Test
         }
     }
 }
-
