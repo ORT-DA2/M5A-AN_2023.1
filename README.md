@@ -11,8 +11,6 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 - :tophat: Ignacio Harretche  
 - :goat: Nicolás Fierro    
 
-https://ortuy.zoom.us/j/93957177582?pwd=SGxaeWdjcm5JVnJyenNmUHZ2YlBJZz09
-
 * [Notion de clases](https://disenio-de-apliaciones-2.notion.site/AN-M5A-students-c10008719e4745bab6c2652fa0fd223b)
 * [Foro de Tecnologia](https://aulas.ort.edu.uy/mod/forum/view.php?id=231726)
 * [GitHub: Cuentas](https://fi365-my.sharepoint.com/:x:/g/personal/aw177322_fi365_ort_edu_uy/ETy_lJcO_qZHo2VUIHc4LDMBXKqihEIylaxR7i_80gCI_A?e=cqPzQU)
