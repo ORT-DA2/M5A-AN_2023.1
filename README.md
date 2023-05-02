@@ -29,5 +29,5 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 
 - [Guía 1](/Clases/guias-practicas-angular/guia1/angular-guia-practica-1.md)
 - [Código asociado a la guía 1](/Clases/guias-practicas-angular/guia1/code)
-- [Guía 2](/Clases/guias-practicas-angular/guia1/angular-guia-practica-2.md)
+- [Guía 2](/Clases/guias-practicas-angular/guia2/angular-guia-practica-2.md)
 - [Código asociado a la guía 2](/Clases/guias-practicas-angular/guia2/code)
