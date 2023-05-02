@@ -1,0 +1,22 @@
+
+<div class="movie-list-container">
+    <h2 class="title">Películas</h2>
+    <div class="movie-list-header">
+      <input class="movie-list-filter-input" [(ngModel)]="filterValue" placeholder="Filtrar por" />
+    </div>
+    <p class="filter" *ngIf="filterValue">
+      Películas filtradas por <b>{{ filterValue }}</b>
+    </p>
+    <div class="movie-list" *ngIf="movies && movies.length > 0; else elseBlock">
+      <app-movie-item
+        *ngFor="let movie of movies"
+        [movie]="movie"
+        (delete)="deleteMovie($event)"
+      >
+      </app-movie-item>
+    </div>
+    <ng-template #elseBlock>
+      <p class="movie-list-no-movies-message">No hay películas</p>
+    </ng-template>
+</div>
+
