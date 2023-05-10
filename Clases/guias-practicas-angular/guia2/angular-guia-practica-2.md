@@ -224,7 +224,15 @@ El servicio tiene básicamente el CRUD de movies que van a estar utilizando, sim
 
 Para registrar el servicio en el componente, deben registrar un `Provider`. Un `provider` es simplemente código que puede crear o retornar un servicio, **típicamente es la clase del servicio mismo**. Esto lo logran a través de definirlo en el componente, o como metadata en el Angular Module (AppModule).
 
-- Si lo registran en un componente, pueden inyectar el servicio en el componente y en todos sus hijos. 
+- Si lo registran en un componente, pueden inyectar el servicio en el componente y en todos sus hijos. Cuando registran un proveedor a nivel de componente, obtienen una nueva instancia del servicio con cada nueva instancia de ese componente.
+    ```typescript
+    @Component({
+        selector: 'app-movie-list',
+        templateUrl: './movie-list.component.html',
+        styleUrls: ['./movie-list.component.scss'],
+        providers: [MoviesService]
+    })
+    ```
 - Si lo registran en el módulo de la aplicación, lo pueden inyectar en toda la aplicación.
 
 En este caso, lo van a registrar en el Root Module (`AppModule`). Por ello, van a `app.module.ts` y reemplazan todo el código para dejarlo así:
@@ -278,7 +286,7 @@ constructor(private _moviesService: MoviesService) {
 }
 ``` 
 
-Así inyectan el `MoviesService` y lo dejan disponible para la clase. Ahí mismo podrían inicializar la lista de películas, llamando al `getMovies` del servicio. Sin embargo, no es proljo mezclar la lógica de construcción del componente (todo lo que es renderización de la vista), con lo que es la lógica de obtención de datos. Para resover esto debeían usar `Hooks` particularmente, el `OnInit`, que se ejecuta luego de inicializar el componente.
+Así inyectan el `MoviesService` y lo dejan disponible para la clase. Ahí mismo podrían inicializar la lista de películas, llamando al `getMovies` del servicio. Sin embargo, no es proljo mezclar la lógica de construcción del componente (todo lo que es renderización de la vista), con lo que es la lógica de obtención de datos. Para resolver esto deberían usar `Hooks` particularmente, el `OnInit`, que se ejecuta luego de inicializar el componente.
 
 Acá pueden aprender más sobre hooks: https://angular.io/guide/lifecycle-hooks
 
@@ -638,6 +646,63 @@ Cada `form-item` va a tener:
 
     En el caso de `year` y `rating` van a tener 2 mensajes.
 
+Para mejorar un poco los estilos del nuevo componente, pueden agregar las siguientes clases de css al archivo `movie-form.component.scss`:
+
+```css
+.button {
+    border: solid;
+    width: fit-content;
+    padding: 0.313rem;
+    border-radius: 1.25rem;
+    background-color: #A9C5A0;
+    border-color: #A9C5A0;
+    color: white;
+    font-size: 1.625rem;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #C5EFCB;
+    color: black;
+}
+
+.form {
+    margin-top: 1.875rem;
+}
+
+.form-item {
+    margin: 1.875rem;
+}
+
+.form-item-control {
+    display: flex;
+    flex-direction: column;
+    width: 18.75rem;
+}
+
+.form-item-label {
+    font-size: 1.625rem;
+}
+
+.form-item-input {
+    width: 20rem;
+    font-size: 1.125rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.alert-danger {
+    margin-top: 0.5rem;
+    color: red;
+    font-size: 1rem;
+}
+
+.input-error {
+    border-color: red;
+}
+
+```
+
 Para poder hacer el `bind` de la property `formGroup` van a necesitar importar `ReactiveFormsModule` en el `AppModule`.
 
 En caso contrario al compilar la app, les va a salir el siguiente error:
@@ -734,9 +799,9 @@ Para poder inyectar el `Router`, necesitan hacer este import:
 import { Router } from '@angular/router';
 ```
 
-Ahora van al HTML (`movie-list.component.html`). Van a modificar el `movie-header` para agregar el botón de `Agregar Película`.
+Ahora van al HTML (`movie-list.component.html`). Van a modificar el `movie-list-header` para agregar el botón de `Agregar Película`.
 
-El `movie-header` quedaría de la siguiente manera:
+El `movie-list-header` quedaría de la siguiente manera:
 
 ```html
 <div class="movie-list-header">
