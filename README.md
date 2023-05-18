@@ -31,3 +31,14 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 - [Código asociado a la guía 1](/Clases/guias-practicas-angular/guia1/code)
 - [Guía 2](/Clases/guias-practicas-angular/guia2/angular-guia-practica-2.md)
 - [Código asociado a la guía 2](/Clases/guias-practicas-angular/guia2/code)
+- [Código asociado a la guía 3](/Clases/guias-practicas-angular/guia3/code)
+
+#### Links de interés
+
+- [Introducción teórica observables en Angular](https://desarrolloweb.com/articulos/introduccion-teorica-observables-angular.html)
+
+- [Introducción práctica observables en Angular](https://desarrolloweb.com/articulos/practica-observables-angular.html)
+
+- [Manual Angular](https://desarrolloweb.com/manuales/manual-angular-2.html)
+
+- [Programación reactiva con RxJS](https://osmancea.medium.com/programaci%C3%B3n-reactiva-con-rxjs-bebc9432485f)
