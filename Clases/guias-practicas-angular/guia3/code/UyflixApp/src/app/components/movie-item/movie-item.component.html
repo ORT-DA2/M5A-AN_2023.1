@@ -1,0 +1,13 @@
+<div class="movie-item-card">
+    <div (click)="onMovieClicked()">
+        <div>{{ movie?.name }}</div>
+        <div>{{ movie?.category }}</div>
+        <div>{{ movie?.director }}</div>
+        <div>{{ movie?.country }}</div>
+        <div>{{ movie?.year }}</div>
+        <div>{{ movie?.rating }}</div>
+    </div>
+    <div class="movie-item-delete-button-container">
+        <button class="movie-item-delete-button" (click)="onDelete()">Borrar</button>
+    </div>
+</div>
