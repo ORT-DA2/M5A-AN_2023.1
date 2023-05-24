@@ -32,6 +32,7 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 - [Guía 2](/Clases/guias-practicas-angular/guia2/angular-guia-practica-2.md)
 - [Código asociado a la guía 2](/Clases/guias-practicas-angular/guia2/code)
 - [Código asociado a la guía 3](/Clases/guias-practicas-angular/guia3/code)
+- [Código asociado a la guía 4](/Clases/guias-practicas-angular/guia4/code)
 
 #### Links de interés
 
